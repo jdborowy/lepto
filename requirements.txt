@@ -1,2 +1,5 @@
 pep8
+nose
+coverage
+
 pandas
