@@ -1,5 +1,8 @@
 pep8
 nose
 coverage
-
+pytest
+numpy
 pandas
+krakenex
+notebook
