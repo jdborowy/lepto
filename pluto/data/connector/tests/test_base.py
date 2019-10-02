@@ -7,7 +7,7 @@ from ..base import KrakenOHLC
 DIRNAME = path.dirname(path.abspath(__file__))
 
 
-def _read_file(ticker):
+def _read_file(ticker, _):
     file_path = path.join(DIRNAME, f"{ticker}.json")
     with open(file_path, "r") as f:
         return f.read()
